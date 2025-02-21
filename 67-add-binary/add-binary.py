@@ -6,9 +6,3 @@ class Solution:
         num_bin = bin(sum_num)[2:]
         final_res = str(num_bin)
         return final_res
-
-
-a = "11"
-b = "1"
-solution = Solution()
-solution.addBinary(a, b)
